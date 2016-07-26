@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD059AEE1D47F8C200764749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD059AED1D47F8C200764749 /* AppDelegate.swift */; };
+		FD059AF01D47F8C200764749 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD059AEF1D47F8C200764749 /* GameScene.sks */; };
+		FD059AF21D47F8C200764749 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD059AF11D47F8C200764749 /* GameScene.swift */; };
+		FD059AF41D47F8C200764749 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD059AF31D47F8C200764749 /* GameViewController.swift */; };
+		FD059AF71D47F8C200764749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD059AF51D47F8C200764749 /* Main.storyboard */; };
+		FD059AF91D47F8C200764749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD059AF81D47F8C200764749 /* Assets.xcassets */; };
+		FD059AFC1D47F8C200764749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD059AFA1D47F8C200764749 /* LaunchScreen.storyboard */; };
+		FD059B071D47F8C200764749 /* DidotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD059B061D47F8C200764749 /* DidotsTests.swift */; };
+		FD059B121D47F8C200764749 /* DidotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD059B111D47F8C200764749 /* DidotsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD059B031D47F8C200764749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD059AE21D47F8C200764749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD059AE91D47F8C200764749;
+			remoteInfo = Didots;
+		};
+		FD059B0E1D47F8C200764749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD059AE21D47F8C200764749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD059AE91D47F8C200764749;
+			remoteInfo = Didots;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD059AEA1D47F8C200764749 /* Didots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Didots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD059AED1D47F8C200764749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD059AEF1D47F8C200764749 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FD059AF11D47F8C200764749 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FD059AF31D47F8C200764749 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FD059AF61D47F8C200764749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD059AF81D47F8C200764749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD059AFB1D47F8C200764749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD059AFD1D47F8C200764749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD059B021D47F8C200764749 /* DidotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DidotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD059B061D47F8C200764749 /* DidotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidotsTests.swift; sourceTree = "<group>"; };
+		FD059B081D47F8C200764749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD059B0D1D47F8C200764749 /* DidotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DidotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD059B111D47F8C200764749 /* DidotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidotsUITests.swift; sourceTree = "<group>"; };
+		FD059B131D47F8C200764749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD059AE71D47F8C200764749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD059AFF1D47F8C200764749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD059B0A1D47F8C200764749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD059AE11D47F8C200764749 = {
+			isa = PBXGroup;
+			children = (
+				FD059AEC1D47F8C200764749 /* Didots */,
+				FD059B051D47F8C200764749 /* DidotsTests */,
+				FD059B101D47F8C200764749 /* DidotsUITests */,
+				FD059AEB1D47F8C200764749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD059AEB1D47F8C200764749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD059AEA1D47F8C200764749 /* Didots.app */,
+				FD059B021D47F8C200764749 /* DidotsTests.xctest */,
+				FD059B0D1D47F8C200764749 /* DidotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD059AEC1D47F8C200764749 /* Didots */ = {
+			isa = PBXGroup;
+			children = (
+				FD059AED1D47F8C200764749 /* AppDelegate.swift */,
+				FD059AEF1D47F8C200764749 /* GameScene.sks */,
+				FD059AF11D47F8C200764749 /* GameScene.swift */,
+				FD059AF31D47F8C200764749 /* GameViewController.swift */,
+				FD059AF51D47F8C200764749 /* Main.storyboard */,
+				FD059AF81D47F8C200764749 /* Assets.xcassets */,
+				FD059AFA1D47F8C200764749 /* LaunchScreen.storyboard */,
+				FD059AFD1D47F8C200764749 /* Info.plist */,
+			);
+			path = Didots;
+			sourceTree = "<group>";
+		};
+		FD059B051D47F8C200764749 /* DidotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD059B061D47F8C200764749 /* DidotsTests.swift */,
+				FD059B081D47F8C200764749 /* Info.plist */,
+			);
+			path = DidotsTests;
+			sourceTree = "<group>";
+		};
+		FD059B101D47F8C200764749 /* DidotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD059B111D47F8C200764749 /* DidotsUITests.swift */,
+				FD059B131D47F8C200764749 /* Info.plist */,
+			);
+			path = DidotsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD059AE91D47F8C200764749 /* Didots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD059B161D47F8C200764749 /* Build configuration list for PBXNativeTarget "Didots" */;
+			buildPhases = (
+				FD059AE61D47F8C200764749 /* Sources */,
+				FD059AE71D47F8C200764749 /* Frameworks */,
+				FD059AE81D47F8C200764749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Didots;
+			productName = Didots;
+			productReference = FD059AEA1D47F8C200764749 /* Didots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD059B011D47F8C200764749 /* DidotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD059B191D47F8C200764749 /* Build configuration list for PBXNativeTarget "DidotsTests" */;
+			buildPhases = (
+				FD059AFE1D47F8C200764749 /* Sources */,
+				FD059AFF1D47F8C200764749 /* Frameworks */,
+				FD059B001D47F8C200764749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD059B041D47F8C200764749 /* PBXTargetDependency */,
+			);
+			name = DidotsTests;
+			productName = DidotsTests;
+			productReference = FD059B021D47F8C200764749 /* DidotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD059B0C1D47F8C200764749 /* DidotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD059B1C1D47F8C200764749 /* Build configuration list for PBXNativeTarget "DidotsUITests" */;
+			buildPhases = (
+				FD059B091D47F8C200764749 /* Sources */,
+				FD059B0A1D47F8C200764749 /* Frameworks */,
+				FD059B0B1D47F8C200764749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD059B0F1D47F8C200764749 /* PBXTargetDependency */,
+			);
+			name = DidotsUITests;
+			productName = DidotsUITests;
+			productReference = FD059B0D1D47F8C200764749 /* DidotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD059AE21D47F8C200764749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rodrigo Labronici";
+				TargetAttributes = {
+					FD059AE91D47F8C200764749 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K6PRB5G5B5;
+					};
+					FD059B011D47F8C200764749 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K6PRB5G5B5;
+						TestTargetID = FD059AE91D47F8C200764749;
+					};
+					FD059B0C1D47F8C200764749 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K6PRB5G5B5;
+						TestTargetID = FD059AE91D47F8C200764749;
+					};
+				};
+			};
+			buildConfigurationList = FD059AE51D47F8C200764749 /* Build configuration list for PBXProject "Didots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD059AE11D47F8C200764749;
+			productRefGroup = FD059AEB1D47F8C200764749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD059AE91D47F8C200764749 /* Didots */,
+				FD059B011D47F8C200764749 /* DidotsTests */,
+				FD059B0C1D47F8C200764749 /* DidotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD059AE81D47F8C200764749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD059AF01D47F8C200764749 /* GameScene.sks in Resources */,
+				FD059AFC1D47F8C200764749 /* LaunchScreen.storyboard in Resources */,
+				FD059AF91D47F8C200764749 /* Assets.xcassets in Resources */,
+				FD059AF71D47F8C200764749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD059B001D47F8C200764749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD059B0B1D47F8C200764749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD059AE61D47F8C200764749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD059AF21D47F8C200764749 /* GameScene.swift in Sources */,
+				FD059AF41D47F8C200764749 /* GameViewController.swift in Sources */,
+				FD059AEE1D47F8C200764749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD059AFE1D47F8C200764749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD059B071D47F8C200764749 /* DidotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD059B091D47F8C200764749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD059B121D47F8C200764749 /* DidotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD059B041D47F8C200764749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD059AE91D47F8C200764749 /* Didots */;
+			targetProxy = FD059B031D47F8C200764749 /* PBXContainerItemProxy */;
+		};
+		FD059B0F1D47F8C200764749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD059AE91D47F8C200764749 /* Didots */;
+			targetProxy = FD059B0E1D47F8C200764749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD059AF51D47F8C200764749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD059AF61D47F8C200764749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD059AFA1D47F8C200764749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD059AFB1D47F8C200764749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD059B141D47F8C200764749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD059B151D47F8C200764749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD059B171D47F8C200764749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Didots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.Didots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD059B181D47F8C200764749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Didots/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.Didots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD059B1A1D47F8C200764749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DidotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DidotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Didots.app/Didots";
+			};
+			name = Debug;
+		};
+		FD059B1B1D47F8C200764749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DidotsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DidotsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Didots.app/Didots";
+			};
+			name = Release;
+		};
+		FD059B1D1D47F8C200764749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = DidotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DidotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Didots;
+			};
+			name = Debug;
+		};
+		FD059B1E1D47F8C200764749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DidotsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DidotsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Didots;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD059AE51D47F8C200764749 /* Build configuration list for PBXProject "Didots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD059B141D47F8C200764749 /* Debug */,
+				FD059B151D47F8C200764749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD059B161D47F8C200764749 /* Build configuration list for PBXNativeTarget "Didots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD059B171D47F8C200764749 /* Debug */,
+				FD059B181D47F8C200764749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD059B191D47F8C200764749 /* Build configuration list for PBXNativeTarget "DidotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD059B1A1D47F8C200764749 /* Debug */,
+				FD059B1B1D47F8C200764749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD059B1C1D47F8C200764749 /* Build configuration list for PBXNativeTarget "DidotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD059B1D1D47F8C200764749 /* Debug */,
+				FD059B1E1D47F8C200764749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD059AE21D47F8C200764749 /* Project object */;
+}
