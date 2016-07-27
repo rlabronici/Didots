@@ -15,7 +15,7 @@ class GameScene: SKScene {
         myLabel.text = "Hello, World!"
         myLabel.fontSize = 46
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
-        //add
+        //add add mais um
         self.addChild(myLabel)
     }
     
