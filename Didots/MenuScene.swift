@@ -1,24 +1,25 @@
 //
-//  GameScene.swift
+//  MenuScene.swift
 //  Didots
 //
-//  Created by Rodrigo Labronici on 26/07/16.
-//  Copyright (c) 2016 Rodrigo Labronici. All rights reserved.
+//  Created by Rodrigo Labronici on 9/19/16.
+//  Copyright © 2016 Rodrigo Labronici. All rights reserved.
 //
+
 
 import SpriteKit
 
-class GameScene: SKScene {
+class MenuScene: SKScene {
     override func didMove(to view: SKView) {
         /* Setup your scene here */
-       
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-       /* Called when a touch begins */
+        /* Called when a touch begins */
         
     }
-   
+    
     override func update(_ currentTime: TimeInterval) {
         /* Called before each frame is rendered */
     }
