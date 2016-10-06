@@ -12,6 +12,8 @@ import SpriteKit
 class MenuScene: SKScene {
     override func didMove(to view: SKView) {
         /* Setup your scene here */
+        self.backgroundColor = SKColor(red: 1, green:1, blue:1, alpha: 1.0)
+        
         
     }
     
